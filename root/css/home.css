@@ -5,3 +5,17 @@
     width: 30%;
     text-align: center;
 }
+
+.main-body-wrapper {
+    padding: 20px;
+    display: flex;
+}
+
+.donate-poster {
+    width: 300%;
+    margin-right: 20px;
+}
+
+.who-we-are {
+    text-align: justify;
+}
