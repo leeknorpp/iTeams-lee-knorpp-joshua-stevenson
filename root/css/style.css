@@ -126,4 +126,23 @@ nav {
 footer {
     display: flex;
     justify-content: space-between;
+    padding: 25px;
+    vertical-align: middle;
+}
+
+.footer-nav-links {
+    flex-direction: column;
+    align-items: middle;
+   text-decoration: underline;
+   
+}
+
+footer .column-left {
+    margin: auto 0;
+    line-height: 35px;
+}
+
+footer .column-right {
+    max-width: 100%;
+    margin: auto 0;
 }
