@@ -1,0 +1,47 @@
+body {
+    background-image: url("../images/background.png");
+    background-repeat: repeat-y;]
+    background-size: auto;
+    background-color: #93A54D;
+    background-attachment: fixed;
+}
+
+.page-wrapper {
+    width: 85%;
+    margin: 0, auto;
+}
+
+img {
+    width: 100%;
+}
+
+.header-wrapper, .main-content-wrapper, footer {
+    background-color: rgba(255, 255, 255, .9);
+    
+}
+
+.title-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #BF7B54;
+  /*  line-height: 79%; */
+    font-size: 60pt;
+}
+
+.title-text-two {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #BF7B54;
+   /* line-height: 118%; */
+    font-size: 90pt;
+}
+
+.body-text {
+    font-family: 'Roboto Slab', serif;
+    color: #6D3B2A;
+    font-size: 24pt;
+}
+
+.footer-body-text {
+    font-family: 'Roboto Slab', serif;
+    color: #6D3B2A;
+    font-size: 22pt;
+}
