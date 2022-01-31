@@ -1,6 +1,6 @@
 body {
     background-image: url("../images/background.png");
-    background-repeat: repeat-y;]
+    background-repeat: repeat-y;
     background-size: auto;
     background-color: #93A54D;
     background-attachment: fixed;
@@ -24,24 +24,24 @@ img {
     font-family: 'Roboto Condensed', sans-serif;
     color: #BF7B54;
   /*  line-height: 79%; */
-    font-size: 60pt;
+    font-size: 30pt;
 }
 
 .title-text-two {
     font-family: 'Roboto Condensed', sans-serif;
     color: #BF7B54;
    /* line-height: 118%; */
-    font-size: 90pt;
+    font-size: 50pt;
 }
 
 .body-text {
     font-family: 'Roboto Slab', serif;
-    color: #6D3B2A;
-    font-size: 24pt;
+    color: #592512;
+    font-size: 15pt;
 }
 
 .footer-body-text {
     font-family: 'Roboto Slab', serif;
     color: #6D3B2A;
-    font-size: 22pt;
+    font-size: 15pt;
 }
