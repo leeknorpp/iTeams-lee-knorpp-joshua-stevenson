@@ -1,3 +1,6 @@
+/* ------------ Default Styles --------- */
+
+
 body {
     background-image: url("../images/background.png");
     background-repeat: repeat-y;
@@ -6,9 +9,26 @@ body {
     background-attachment: fixed;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: .2s;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+    opacity: .8;
+}
+
 .page-wrapper {
-    width: 85%;
-    margin: 0, auto;
+    width: 80%;
+    margin: 80px auto;
 }
 
 img {
@@ -16,7 +36,9 @@ img {
 }
 
 .header-wrapper, .main-content-wrapper, footer {
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(255, 255, 255, .85);
+    border-radius: 3px;
+    margin: 10px 0;
     
 }
 
@@ -24,7 +46,7 @@ img {
     font-family: 'Roboto Condensed', sans-serif;
     color: #BF7B54;
   /*  line-height: 79%; */
-    font-size: 30pt;
+    font-size: 25pt;
 }
 
 .title-text-two {
@@ -44,4 +66,64 @@ img {
     font-family: 'Roboto Slab', serif;
     color: #6D3B2A;
     font-size: 15pt;
+}
+
+/*------------------ Donate Button Style -----------------*/
+
+.donate button {
+    background-color: #BF7B54;
+    font-family: 'Roboto Slab';
+    border: none;
+    color: #F0F4EA;
+    min-width: 50px;
+    max-width: 25vw;
+    height: 70px;
+    font-size: 23pt;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.donate button i {
+    font-size: 18pt;
+}
+
+/* -------------- Header ------------- */
+
+.header-image {
+    position: static;
+}
+
+.logo {
+    position: absolute;
+    /* min-width: 200px; */
+    max-width: 30%;
+    margin-top: -20%;
+    margin-left: 3%;
+}
+
+/* ------------ Header Navigation ------------------- */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.header-nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 60%;
+    
+}
+
+.header-nav-links a {
+    margin: 0 4px;
+}
+
+/* ----------------- Footer ------------------- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
 }
