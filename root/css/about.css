@@ -1,3 +1,29 @@
 body {
     display: block;
 }
+
+.splash-text-wrapper {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 48%;
+    width: 30%;
+    text-align: center;
+}
+
+/* ------- Tiles -------- */
+
+.tile img {
+    width: 380px;
+    margin: 15px;
+}
+
+.about-section {
+    margin: 50px 0;
+    background-color: #e1e7f8db;
+    display: flex;
+}
+
+.info-text {
+    margin: auto 15px;
+    width: 60%;
+}
