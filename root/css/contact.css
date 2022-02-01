@@ -1,17 +1,17 @@
 /* created by a goof */
-div.title {
+div .title {
     position: absolute;
     left: 135px;
     Top: 520px;
   }
 
-  div.subtitle1 {
+  div .subtitle1 {
     position: absolute;
     left: 135px;
     Top: 520px;
   }
 
-  div.subtitle2 {
+  div .subtitle2 {
     position: absolute;
     left: 135px;
     Top: 520px;
@@ -19,11 +19,10 @@ div.title {
   .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: #ffffff;
     padding: 100px;
     margin-bottom: 90px;
 }
-div.Contactitle {
+  div .Contactitle {
     position: relative;
     bottom: 10px;
     color: #BF7B54;
@@ -31,7 +30,7 @@ div.Contactitle {
     font-size: 25pt;
     margin-left: 200px;
   }
-  div.getintouch {
+  div .getintouch {
     position: relative;
     bottom: 10px;
     color: #BF7B54;
@@ -39,12 +38,12 @@ div.Contactitle {
     font-size: 25pt;
     margin-left: 0px;
   }
-  div.contacts {
+  div .contacts {
     font-family: 'Roboto Slab', serif;
     color: #592512;
     font-size: 10pt;
   }
-  div.sendusamessage {
+  div .sendusamessage {
       margin-left: 160px;
   }
   input[type=text], select {
@@ -56,7 +55,7 @@ div.Contactitle {
     box-sizing: border-box;
     margin-left: 50px;
   }
-  div.MessageFormat {
+  div .MessageFormat {
     font-family: 'Roboto Slab', serif;
     color: #592512;
     font-size: 10pt;

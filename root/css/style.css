@@ -42,30 +42,33 @@ img {
     
 }
 
+.main-content-wrapper {
+    padding: 4vw 3vw;
+}
+
 .title-text {
     font-family: 'Roboto Condensed', sans-serif;
     color: #BF7B54;
-  /*  line-height: 79%; */
-    font-size: 25pt;
+    font-size: 2.8vw;
 }
 
 .title-text-two {
     font-family: 'Roboto Condensed', sans-serif;
     color: #BF7B54;
-   /* line-height: 118%; */
-    font-size: 50pt;
+    font-size: 4.5vw;
 }
 /* ------------------ ^For sub titles -----------------*/
+
 .body-text {
     font-family: 'Roboto Slab', serif;
     color: #592512;
-    font-size: 15pt;
+    font-size: 1.5vw;
 }
 
 .footer-body-text {
     font-family: 'Roboto Slab', serif;
     color: #6D3B2A;
-    font-size: 15pt;
+    font-size: 1.5vw;
 }
 
 /*------------------ Donate Button Style -----------------*/
@@ -75,16 +78,16 @@ img {
     font-family: 'Roboto Slab';
     border: none;
     color: #F0F4EA;
-    min-width: 50px;
-    max-width: 25vw;
-    height: 70px;
-    font-size: 23pt;
+    width: 18vw;
+    height: 5.4vw;
+    font-size: 3.3vw;
     border-radius: 7px;
     margin-bottom: 10px;
+    
 }
 
 .donate button i {
-    font-size: 18pt;
+    font-size: 3vw;
 }
 
 /* -------------- Header ------------- */
@@ -112,7 +115,7 @@ nav {
 .header-nav-links {
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
+    margin: auto 0;
     width: 60%;
     
 }
@@ -126,7 +129,7 @@ nav {
 footer {
     display: flex;
     justify-content: space-between;
-    padding: 25px;
+    padding: 3vw;
     vertical-align: middle;
 }
 
@@ -139,10 +142,15 @@ footer {
 
 footer .column-left {
     margin: auto 0;
-    line-height: 35px;
+    line-height: 3vw;
 }
 
 footer .column-right {
     max-width: 100%;
     margin: auto 0;
+}
+
+footer iframe {
+    width: 30vw;
+    height: 20vw;
 }

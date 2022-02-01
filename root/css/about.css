@@ -1,8 +1,8 @@
 
 .splash-text-wrapper {
     position: absolute;
-    margin-top: -33%;
-    margin-left: 48%;
+    margin-top: -30%;
+    margin-left: 45%;
     width: 30%;
     text-align: center;
 }
@@ -10,17 +10,17 @@
 /* ------- Tiles -------- */
 
 .tile img {
-    width: 380px;
-    margin: 15px;
+    width: 35vw;
+    margin: 2vw;
 }
 
 .about-section {
-    margin: 50px 0;
+    margin: 3vw 0;
     background-color: #e1e7f8db;
     display: flex;
 }
 
 .info-text {
-    margin: auto 25px;
+    margin: auto 1.5vw;
     width: 60%;
 }

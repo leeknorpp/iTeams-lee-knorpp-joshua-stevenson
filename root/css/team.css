@@ -9,6 +9,7 @@ header img {
 
 header .text {
     margin: auto 25px;
+    width: 40%;
 
 }
 
@@ -23,7 +24,7 @@ header {
 }
 
 .image {
-    width: 300px;
+    width: 90%;
 }
 
 .name {
@@ -36,7 +37,7 @@ header {
 
 .bio, .contact {
     font-weight: 200;
-    width: 200px;
+    width: 80%;
 }
 
 .contact {
@@ -53,5 +54,9 @@ header {
 }
 
 .main-content-wrapper {
-    padding-bottom: 20px;
+    padding-bottom: 7vw;
+}
+
+.member {
+    width: 33%;
 }
