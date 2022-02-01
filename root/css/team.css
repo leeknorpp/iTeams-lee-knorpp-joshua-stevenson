@@ -1,0 +1,41 @@
+header {
+    display: flex;
+
+}
+
+header img {
+    width: 60%;
+}
+
+header .text {
+    margin: auto 25px;
+
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    width: 300px;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.bio, .contact {
+    font-weight: 200;
+    width: 200px;
+}
+
+.contact {
+    font-size: 80%;
+}
+
+.name, .role, .bio, .contact {
+    
+    align-self: center;
+}
