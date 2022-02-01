@@ -12,6 +12,10 @@ header .text {
 
 }
 
+header {
+    margin-bottom: 40px;
+}
+
 .team {
     display: flex;
     flex-wrap: wrap;
@@ -26,6 +30,10 @@ header .text {
     font-weight: 700;
 }
 
+.role {
+    font-size: 90%;
+}
+
 .bio, .contact {
     font-weight: 200;
     width: 200px;
@@ -35,7 +43,15 @@ header .text {
     font-size: 80%;
 }
 
+.info-content {
+    justify-content: center;
+}
+
 .name, .role, .bio, .contact {
-    
-    align-self: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-content-wrapper {
+    padding-bottom: 20px;
 }
